@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center-left;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+       <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+       
+     
+        <link href="index.css" rel="stylesheet" type="text/css"/>
+
+<body style="background-color:powderblue;">
+        <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:white;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#"  style="color:powderblue;"><b>The Covid-Essentials Store</b></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right"style="color:powderblue;">
+                        <li><a href="products.php"><span class="glyphicon glyphicon-home" style="color:powderblue;"></span> Products </a></li>
+                       
+                        <li><a href="logout.php"><span class="glyphicon glyphicon-log-in" style="color:powderblue;"></span> Logout </a></li>
+                    </ul>
+                </div>
+            </div>
+			
+			
+        </nav>    
+</head>
+
+
+<body>
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <p style="padding: 20px; text-align:left;">We have built an e-commerce website pertaining to the domain of essential items required to safeguard against the Covid-19. The main purpose of this website is for affiliate marketing, creating traffic for Amazon by our referrals. We created a
+		 user friendly interface by incorporating one-click hyperlinks wherever needed, appropriate picture gallery, the tile view
+		  of products for quick browsing. When we use e-commerce websites like Amazon, the shopping experience is not so good 
+		  especially for Covid-19 essential as the specifications and technicalities and not easy to find and at times messy. Hence, a
+		   spotlight feature of our website is the clean and readable specifications column, with minimal page reloads.</p>
+		<p style="padding-left: 20px; padding-right: 20px; text-align:left;">We have used HTML, CSS, JS, PHP to built this website — HTML being used for
+		 structuring all the web pages and enabling linking of pictures and buttons, CSS being used for creating the layout and styling of the
+		  webpages — ensuring a clean interface and appropriate fonts sizes and colour schemes, and JavaScript being used for making the
+		   user-website engagement more interactive and making . We linked the Login and Registration pages to MySQL database using PHP, where
+			the frontend meets the backend. MySQL is a relational database management system that uses SQL for processing data in the database.
+			 PHP is a scripting language used to building dynamic web pages. When a visitor opens a page built in PHP, the server processes the
+			  PHP commands and then sends the results to the visitor’s browser. At the time of User Login or User Registration, a request is
+			   made that is sent to the host server. PHP receives this request, obtains the desired information from the MySQL database, and 
+			   then presents it on the web browser.</p>
+		<p style="padding: 20px; text-align:left;">This project is made by Shrineel Nadgauda and Anshuman Singh, pursuing Computer Engineering from NMIMS Mumbai; and
+		 it is our First step in the path of web development. The future scope will be diversifying the website to include more products
+		  and categories. Upon proper market research, we can use our website a ranking tool, featuring top products from each
+		 listing — thus an effective affiliate marketing tool in the field of marketing.
+		  Keyword planning and Search Engine Optimization techniques will make this website more rewarding in the long run. Good web development
+		   is a crucial asset in any marketing strategy; a key to start and flourish your business, extend your boundaries, make your voice
+		    heard and the let your brand be seen. A website so strongly represents your brand, and renders first impression and insight of it.</p>
+</div>
+
+
+  
+</div>
+
+</body>
+</html>
